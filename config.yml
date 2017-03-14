@@ -1,0 +1,18 @@
+bot:
+    distance: 3
+    visible-on-tablis: true
+    visible-for-player: true
+    name-type: CUSTOM
+    names:
+        - BOT_Andrzej
+        - BOT_Tomek
+        - BOT_Dariusz
+        - BOT_md_5
+        - spigotmc_org
+        - Jakubson
+    disable-worlds:
+        - map1
+        - map2
+ban:
+    amount: 5
+    command: 'ban %PLAYER% Kill aura!'
