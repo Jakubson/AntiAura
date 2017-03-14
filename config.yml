@@ -7,7 +7,7 @@ bot:
         - BOT_Andrzej
         - BOT_Tomek
         - BOT_Dariusz
-        - BOT_md_5
+        - md_5
         - spigotmc_org
         - Jakubson
     disable-worlds:
