@@ -4,15 +4,12 @@ bot:
     visible-for-player: true
     name-type: CUSTOM
     names:
-        - BOT_Andrzej
-        - BOT_Tomek
-        - BOT_Dariusz
-        - md_5
-        - spigotmc_org
-        - Jakubson
+        - '§8§kServerBot'
+        - '§cJakubson'
+        - '§6md_5'
     disable-worlds:
-        - map1
-        - map2
+        - 'map1'
+        - 'map2'
 ban:
     amount: 5
     command: 'ban %PLAYER% Kill aura!'
