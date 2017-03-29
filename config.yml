@@ -1,5 +1,7 @@
 bot:
+    enable: true
     distance: 3
+    height: 1
     visible-on-tablis: true
     visible-for-player: true
     name-type: CUSTOM
