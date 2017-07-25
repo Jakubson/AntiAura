@@ -13,8 +13,8 @@ bot:
         - 'map1'
         - 'map2'
 warn:
-    every: 3
-    message: '§c§lWHY ARE YOU CHEATING?'
+    amount: 10
+    command: 'kick %PLAYER% Turn off your cheats!'
 ban:
     amount: 20
     command: 'ban %PLAYER% Kill aura!'
