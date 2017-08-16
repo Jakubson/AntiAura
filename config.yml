@@ -2,13 +2,18 @@ bot:
     enable: true
     distance: 3
     height: 1
+    bot-amount: DOUBLE
     visible-on-tablis: true
     visible-for-player: true
+    visible-bot-equipment: true
     name-type: CUSTOM
     names:
-        - '§8§kServerBot'
-        - '§cJakubson'
-        - '§6md_5'
+        - '&8&kServerBot'
+        - '&cJakubson'
+        - '&6md_5'
+        - '&askkf'
+        - '&cServerAdmin'
+        - '&8Herobrine'
     disable-worlds:
         - 'map1'
         - 'map2'
