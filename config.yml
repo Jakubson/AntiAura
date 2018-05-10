@@ -2,18 +2,20 @@ bot:
     enable: true
     distance: 3
     height: 1
-    bot-amount: DOUBLE
-    visible-on-tablis: true
-    visible-for-player: true
-    visible-bot-equipment: true
+    bot-amount: SINGLE
+    bot-show-in-pvp: true
+    visible-on-tablist: true
+    visible-for-player: false
+    visible-bot-equipment: false
     name-type: CUSTOM
     names:
-        - '&8&kServerBot'
-        - '&cJakubson'
-        - '&6md_5'
-        - '&askkf'
-        - '&cServerAdmin'
-        - '&8Herobrine'
+        - 'Jakubson'
+        - 'Mimik1377'
+        - 'md_5'
+        - 'skkf'
+        - 'ServerAdmin'
+        - 'Herobrine'
+        - 'Entity303'
     disable-worlds:
         - 'map1'
         - 'map2'
