@@ -1,7 +1,8 @@
 bot:
     enable: true
-    distance: 3
-    height: 1
+    distance: 3.0
+    height: 1.0
+    bot-hidden-distance: 1.5
     bot-amount: SINGLE
     bot-show-in-pvp: true
     visible-on-tablist: true
