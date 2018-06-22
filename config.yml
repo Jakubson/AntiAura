@@ -8,6 +8,7 @@ bot:
     visible-on-tablist: true
     visible-for-player: false
     visible-bot-equipment: false
+    visible-bot-when-falling: true
     name-type: CUSTOM
     names:
         - 'Jakubson'
