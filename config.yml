@@ -21,6 +21,8 @@ bot:
     disable-worlds:
         - 'map1'
         - 'map2'
+messages:
+    reload: '&a&lServer reload! Please join again in a few seconds!'
 warn:
     amount: 10
     command: 'kick %PLAYER% Turn off your cheats!'
