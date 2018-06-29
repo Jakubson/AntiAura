@@ -5,10 +5,16 @@ bot:
     bot-hidden-distance: 1.5
     bot-amount: SINGLE
     bot-show-in-pvp: true
+    bot-show-in-pvp-options:
+        player-hits: 10
+        reset-player-hits: 40
+        enemies-rage: 4
+        enemies-in-rage: 3
     visible-on-tablist: true
     visible-for-player: false
     visible-bot-equipment: false
     visible-bot-when-falling: true
+    download-skin: true
     name-type: CUSTOM
     names:
         - 'Jakubson'
