@@ -6,6 +6,8 @@ bot:
     bot-amount: SINGLE
     bot-show-in-pvp: true
     bot-show-in-pvp-options:
+        time: 3
+        steps: 20
         player-hits: 10
         reset-player-hits: 40
         enemies-rage: 4
