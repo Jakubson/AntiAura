@@ -3,8 +3,8 @@ bot:
     distance: 3.0
     height: 1.0
     bot-hidden-distance: 1.5
-    bot-amount: SINGLE
-    bot-show-in-pvp: true
+    bot-amount: DOUBLE
+    bot-show-in-pvp: false
     bot-show-in-pvp-options:
         time: 3
         steps: 20
@@ -12,6 +12,9 @@ bot:
         reset-player-hits: 40
         enemies-rage: 4
         enemies-in-rage: 3
+    report:
+        report-amount: 5
+        check-time: 30
     visible-on-tablist: true
     visible-for-player: false
     visible-bot-equipment: false
@@ -30,6 +33,11 @@ bot:
         - 'map1'
         - 'map2'
 messages:
+    report:
+        enter-player-name: ' §c§l⚠§r §7Enter player name!'
+        player-is-offline: ' §c§l⚠§r §7Player is offline!'
+        player-reported: ' §c§l⚠§r §7This player already reported by you!'
+        thanks-for-report: ' §a§l»§r §7Thanks you for report!'
     reload: '&a&lServer reload! Please join again in a few seconds!'
 warn:
     amount: 10
