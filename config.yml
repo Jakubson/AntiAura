@@ -1,4 +1,4 @@
-# Description: https://github.com/Jakubson/AntiAura/wiki/File-config.yml
+# Wiki > https://github.com/Jakubson/AntiAura/wiki/File-config.yml
 bot:
     enable: true
     distance: 3.0
@@ -17,9 +17,12 @@ bot:
         report-amount: 5
         check-time: 30
     visible-on-tablist: true
-    visible-for-player: false
+    visible-for-player: true
     visible-bot-equipment: false
     visible-bot-when-falling: true
+    auto-check: false
+    auto-check-duration: 30
+    auto-check-every: 300
     download-skin: true
     name-type: CUSTOM
     names:
@@ -29,20 +32,21 @@ bot:
         - 'skkf'
         - 'ServerAdmin'
         - 'Herobrine'
-        - 'Entity303'
+        - 'Hypixel'
     disable-worlds:
         - 'map1'
         - 'map2'
 messages:
     report:
-        enter-player-name: ' §c§l⚠§r §7Enter player name!'
+        enter-player-name: ' §c§l⚠§r §7Enter player name and reason!'
         player-is-offline: ' §c§l⚠§r §7Player is offline!'
         player-reported: ' §c§l⚠§r §7This player already reported by you!'
         thanks-for-report: ' §a§l»§r §7Thanks you for report!'
     reload: '&a&lServer reload! Please join again in a few seconds!'
 warn:
-    amount: 10
+    amount: 15
     command: 'kick %PLAYER% Turn off your cheats!'
 ban:
-    amount: 20
+    amount: 30
     command: 'ban %PLAYER% Kill aura!'
+
